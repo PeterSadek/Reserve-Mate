@@ -12,7 +12,7 @@ const MainHeader = () => {
   const { userDetails } = useContext(AuthContext);
 
   return (
-    <div className="position-relative border-bottom">
+    <div className="position-relative">
       <nav className="navbar navbar-expand-lg bg-body-tertiary p-3 ">
         <div className="container-fluid ">
           <Link className="navbar-brand " href="/">
@@ -81,7 +81,7 @@ const MainHeader = () => {
       </nav>
       {/* dropdown */}
       <div
-        className={`btn-group dropdown border border-secondary-subtle position-absolute p-1 ${styles.dropDownPosition} ${styles.dropDownContainer}`}
+        className={`btn-group dropdown border border-secondary-subtle position-absolute p-1${styles.dropDownPosition} ${styles.dropDownContainer}`}
       >
         <button
           type="button"
