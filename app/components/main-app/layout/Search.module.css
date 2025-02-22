@@ -5,7 +5,7 @@
     margin-bottom: 1rem;
 }
 
-@media (max-width: 501px) {
+@media (max-width: 991px) {
     .input-container {
         margin-top: 3rem;
     }

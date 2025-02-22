@@ -103,7 +103,7 @@
   }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 991px) {
   .dropDownContainer {
     top: 4rem;
     right: 1.8rem;
